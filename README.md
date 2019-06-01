@@ -49,11 +49,15 @@ As for the DNS server, you may pick any one of your choice (Though I would recco
 
 *If this doesn't work out, or you would like an alternative approach, you can visit the [official repo](https://github.com/pi-hole/pi-hole) for more details.*
 
+## Finalising the Settings
+You can now access the Web Interface by going to your Rpi's IP address (use the command `ip a` if you don't know it) and change the settings. 
+
+Once you're in, go to Settings and tick the "Enable `DHCP`" setting. **IMPORTANT:** you will need to go to your modem's settings and *untick* DHCP so that *only* your Rpi is being used to allocated IP's. 
+
+Restart your devices that you wish to connect so that the IP lease is renewed.
+
+After this, you'll be done!
+
 ## Post-Installation
-- To change the pihole password run the command `pihole -p`. 
-
-- You can now access the Web Interface by going to your Rpi's IP address (use the command `ip a` if you don't know it) and change the settings. I highly reccomend you add (dbl.oisd.nl) to your block lists as it is updated frequently and covers pretty much all there is.
-
+- I highly reccomend you add (dbl.oisd.nl) to your block lists as it is updated frequently and covers pretty much all there is.
 - If you would ever like to SSH to your device, I recommend [MobaXterm](https://mobaxterm.mobatek.net/) as your go-to terminal for Windows users. Just connect to your Rpi's IP address with the details you created in the initial setup.
-
-
