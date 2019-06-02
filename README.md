@@ -17,8 +17,12 @@ The Pi-hole[®](https://pi-hole.net/trademark-rules-and-brand-guidelines/) is a 
 - **Modern**: blocks ads over both IPv4 and IPv6
 - **Free**: open source software which helps ensure _you_ are the sole person in control of your privacy
 
+## Buying a Raspberry Pi
+You can buy a Raspberry Pi 3 through the official store linked [here](https://raspberry.piaustralia.com.au/raspberry-pi-3-model-b).
+
 ## Setting Up
 *Should also work for any version of the Ubuntu Server builds*
+
 Visit the [ubuntu downloads page](https://www.ubuntu.com/download/iot/raspberry-pi-2-3) and follow the instructions.
 - Make sure your downloaded file is a `.img` or `.img.xz` (latter needs to be extracted using 7zip or alternative)
 - Download [Win32 Disk Imager](https://sourceforge.net/projects/win32diskimager/files/latest/download) or another flashing software of your choice
@@ -28,6 +32,7 @@ Visit the [ubuntu downloads page](https://www.ubuntu.com/download/iot/raspberry-
 Insert the card into your Raspberry Pi 3 and let it install. You will be prompted for a password which by default is:  
 - Username: `ubuntu`
 - Password: `ubuntu`
+
 You will be asked to change the default password after.
 
 After the installation has completed, restart your Raspberry Pi 3 with the following command:  
