@@ -17,6 +17,10 @@ The Pi-hole[®](https://pi-hole.net/trademark-rules-and-brand-guidelines/) is a 
 - **Modern**: blocks ads over both IPv4 and IPv6
 - **Free**: open source software which helps ensure _you_ are the sole person in control of your privacy
 
+Here's an example of what the running Pi-Hole is able to accomplish (you can see that `www.bing.com` is **blocked** since I added it to the blacklist, as well as microsoft's telemetry service).
+
+![alt text](https://github.com/akiratwang/Network-Wide-AdBlocking-using-Ubuntu-Server/blob/master/web_interface.PNG)
+
 ## Buying a Raspberry Pi
 You can buy a Raspberry Pi 3 through the official store linked [here](https://raspberry.piaustralia.com.au/raspberry-pi-3-model-b).
 
@@ -66,3 +70,5 @@ After this, you'll be done!
 ## Post-Installation
 - I highly reccomend you add (dbl.oisd.nl) to your block lists as it is updated frequently and covers pretty much all there is.
 - If you would ever like to SSH to your device, I recommend [MobaXterm](https://mobaxterm.mobatek.net/) as your go-to terminal for Windows users. Just connect to your Rpi's IP address with the details you created in the initial setup.
+
+
